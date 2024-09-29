@@ -1,0 +1,142 @@
+Stack:
+---------------
+ * Stack is a linear data Structure Which follow LIFO
+LIfo = Last In First Out
+ * Which is inserted last that will be removed first
+
+First Operation is push()
+
+To create a stack We have two Methods
+  1) Using List
+  2) Using LinkedList
+
+We can't create Stack Using Tuple because it is immutable
+
+IsEmpty() ---> To Check Whether the stack is empty or not
+push() -----> inserting
+pop() -------> Remove Top Element
+Top() -------> see Top Element
+
+Pop operation is used to Perform action in last element Since It follow LIFO...
+
+Function:
+------------
+  It is a block of Code that perform some operation
+     Input----->(function)-------->Output
+      def is a Keyword is used to Create a function
+   def is for defining the function 
+    Syntax:
+----------------
+     def functionName(No of Parameter):
+        return value
+ Ex:
+ ----
+    def add(a,b):
+       return a+b
+
+add(2,3)
+   Function will not be Executed until and unless it is called With the Help of method signature
+                Implementation of stack Function:
+                 ------------------------------
+def push():
+     val=int(input("Enter the value to be inserted in StacK"))
+     stack.append(val)
+     print(val,"is inserted in a Stack")
+
+def IsEmpty():
+     if len(stack)==0:
+             return True
+     else:
+             return False
+def pop():
+     if IsEmpty():
+          print("We can't Remove the Element from the stack")
+     else:
+          a=stack[-1]
+          del stack[-1]
+          print(a,"is deleted from Stack")
+def top():
+     print("top is",stack[-1])
+
+def display():
+    for i in range(len(stack)-1,-1,-1):
+        print(stack[i])
+
+stack=list()
+  ----------------------------------------
+
+            Queue:
+   -------------------------------
+It is a Linear Data Structure.That works on FIFO 
+   FIFO-First In First Out
+
+We can Create Queue in Two Ways:
+   1)LinkedList
+   2)List
+  Insertion is Similar to Stack only pop operation will be in first only
+push()
+pop()--->first
+IsEmpty()--->Queue is Empty or not
+front()
+
+          Implementation:
+---------------------------------
+  def push():
+    val=input()
+    queue.append(val)
+    print(val,"is Inserted")
+
+  def Is Empty():
+    if len(queue)==0: 
+         return True
+    else:
+         return False
+ 
+ def pop(): 
+    if IsEmpty():
+       print("Can't Remove")
+    else:
+       a=queue[0]
+       del=queue[0]
+       print(a,"is Deleted")
+
+  def Front():
+    print(Queue[0])
+
+  def display():
+    for i in range(0,len(queue)):
+      print(Queue[0])
+
+Difference b/w Queue and Stack?
+   Queue                Stack
+  FIFO                  LIFO
+  front()               top()
+  Selection From
+  first                 selection from last
+
+Function:
+--------------
+* Set of Instruction to perform a Specific Task
+*In Function we will give some Input and it will process the output based on the input.
+ 
+def is a keyword is used to define a function
+
+def function_Name(args1,args2):
+       logic
+      return statement
+
+we can execute the function with the Help of Method signature
+Function is Used to achieve Code Reusablity
+
+Recursion::
+----------------------------
+*Method calling itself.....
+Whenever solution of a big Problem depends upon the Solution of Smaller Problem of a Same Type Then we will use Recursion.
+
+Recurance Relation:
+-----------------------
+    *Formula To achieve Recursion Which will written end of the function
+Base condition is needed to Stop the recursion like loop...or else it will overload the memory
+
+Whenever there is no Base condition is Mentioned we Will get Stack Overflow Error
+
