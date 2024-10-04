@@ -1,0 +1,13 @@
+git clone origin (Copied from github repo)
+git add file name with extension
+git commit -m "Commit message"
+git push origin main
+
+
+Difference between Arrays and Collection?
+1)Arrays is Fixed in size             1)Collection are dyanmic in nature
+2)Wrt to memory not recommended       2) Recommended
+3)Performance wise recommended        3)not recommended
+4)don't have underlying ds            4)have underlying data Structure
+5)support primitive and non primitive 5)only Object
+6)Homogeneous in nature               6)Hetergeneous in nature
