@@ -30,3 +30,18 @@ class HelloWorld {
         System.out.print(Arrays.toString(a));
     }
 }
+
+
+Subject: Request for Assistance
+
+Dear Sir,
+
+I hope this message finds you well. I have completed my courses in Core Java, SQL, and Manual Testing. Basheer Vaba advised me to reach out to you.
+
+My father is currently in Tenkasi, and he will call you once he returns home. I am struggling and would greatly appreciate your assistance. Additionally, I am ready to learn new technologies if needed.
+
+Thank you for your help.
+
+Best regards,
+U Abdul Rahuman Fahath
+
